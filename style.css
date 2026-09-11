@@ -1,0 +1,33 @@
+/* element selector */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+/* class selector */
+.task {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+/*Colors for completed tasks*/
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+.low {
+    border-left: 5px solid green;
+}
+
+.medium {
+    border-left: 5px solid orange;
+}
+
+.high {
+    border-left: 5px solid red;
+}
